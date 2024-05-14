@@ -48,7 +48,17 @@
     <string name="multip_warning"> This is a hard one.</string>
     <string name="multip_example5"> What is 11x7</string>
 
+    <!-- Direction Learn -->
+    <string name="direction_name_learn"> Learning Directions</string>
+    <string name="direction_exp1">
+        Today we are learning directions.
+    </string>
+    <string name="direction_learn_quit"> Quit </string>
+    <string name="direction_play"> Play </string>
+    <!-- Direction Play -->
 
+
+    <!-- Direction Examples-->
 
     <string name="app_name">AdvancedProgrammingProject</string>
 </resources>
