@@ -3,7 +3,7 @@
     <string name="log_quit">Çıkış</string>
     <string name="log_to_menu">Menüye Dön</string>
     <string name="log_login">Giriş Yap</string>
-    <string name="or_register_here">ya da buradan kayıt ol</string>
+    <string name="or_register_here"><u>ya da buradan kayıt ol</u></string>
     <string name="log_username">Kullanıcı adı</string>
     <string name="log_password">Şifre</string>
     <string name="reg_register">Kaydol</string>
