@@ -130,6 +130,21 @@
         5-) Friday \n
         6-) Saturday \n
         7-) Sunday \n\n
-        The last two days are called \'Weekend\'.
+    </string>
+    <string name="monthcount_learn_name">Counting Months of the Year</string>
+    <string name="monthcount_learn_exp">
+        There are 12 months in a year. In order these are: \n\n
+        1-) January \n
+        2-) February \n
+        3-) March \n
+        4-) April \n
+        5-) May \n
+        6-) June \n
+        7-) July \n
+        8-) August \n
+        9-) September \n
+        10-) October \n
+        11-) November \n
+        12-) December \n\n
     </string>
 </resources>
