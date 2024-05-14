@@ -12,11 +12,12 @@
     <string name="menu_activity">Aktivite</string>
     <string name="menu_language">Dil</string>
     <string name="menu_welcome">Hoşgeldin,</string>
+    <string name="menu_day_counting">Haftanın Günleri</string>
     <string name="activity_back">Geri</string>
     <string name="activity_current">Şuanki Aktivite</string>
     <string name="activity_learn">Öğren</string>
     <string name="activity_play">Oyna</string>
-    <string name="multip_play">Öğren</string>
+    <string name="multip_play">Dene</string>
     <string name="app_name">Advanced Programming Project</string>
     <string name="log_log">Giriş</string>
     <string name="reg_tolog">Giriş Ekranına Dön</string>
@@ -50,4 +51,17 @@
     <string name="Directions_nextto">Yanında</string>
     <string name="Directions_between">Arasında</string>
     <string name="Directions_onFront">Önünde</string>
+    <string name="daycount_learn_name">Haftanın Günleri</string>
+    <string name="daycount_learn_exp">"Haftada 7 gün vardır. Sırasıyla şunlardır:     "</string>
+    <string name="daycount_Mon">Pazartesi</string>
+    <string name="daycount_Tue">Salı</string>
+    <string name="daycount_Wed">Çarşamba</string>
+    <string name="daycount_Thu">Perşembe</string>
+    <string name="daycount_Fri">Friday</string>
+    <string name="daycount_Sat">Cumartesi</string>
+    <string name="daycount_Sun">Pazar</string>
+    <string name="daycount_Weekend">"Son iki gün hafta sonudur.  "</string>
+    <string name="daycount_Q1">Haftanın 3. günü hangisidir?</string>
+    <string name="daycount_Q2">Haftanın 5. günü hangisidir?</string>
+    <string name="daycount_Q3">Haftanın 6. günü hangisidir?</string>
 </resources>

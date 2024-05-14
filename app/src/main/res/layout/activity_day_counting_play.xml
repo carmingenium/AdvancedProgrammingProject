@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8F8D8D"
     tools:context=".DayCountingPlay">
 
     <TextView
@@ -14,9 +15,153 @@
         android:layout_marginStart="170dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="170dp"
-        android:text="@string/multip_play_name"
+        android:text="@string/daycount_learn_name"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView  android:layout_width="390dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/daycount_play_name">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/daycount_Q1"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/daycount_Q1"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <RadioGroup
+        android:id="@+id/Answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daycount_Sun"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daycount_Fri"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio13"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daycount_Wed"
+            android:textSize="20sp" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/daycount_Q2"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/daycount_Q2"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/daycount_Q1" />
+    <RadioGroup
+        android:id="@+id/Answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio21"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daycount_Tue"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio22"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daycount_Fri"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio23"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daycount_Thu"
+            android:textSize="20sp" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/daycount_Q3"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/daycount_Q3"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/daycount_Q2" />
+    <RadioGroup
+        android:id="@+id/Answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio31"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daycount_Sat"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio32"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daycount_Tue"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio33"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daycount_Sun"
+            android:textSize="20sp" />
+    </RadioGroup>
+            <Button
+                android:id="@+id/daycount_learn_quit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/multip_learn_quit"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+    </LinearLayout>
+</ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

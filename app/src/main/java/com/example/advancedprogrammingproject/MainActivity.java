@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
         activityButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ExampleActivity.class));
+                startActivity(new Intent(MainActivity.this, DayCountingLearn.class));
             }
         });
         Button activityButton5 = (Button) findViewById(R.id.activity5);

@@ -20,7 +20,7 @@
     <string name="menu_welcome">Welcome,</string>
     <string name="menu_multiplication">Multiplication</string>
     <string name="menu_ball_on_screen">Ball on Screen</string>
-    <string name="menu_day_counting">Counting Days</string>
+    <string name="menu_day_counting">Days of week</string>
     <!-- Example Activity -->
     <string name="activity_back">Back</string>
     <string name="activity_current">Current Activity</string>
@@ -120,16 +120,17 @@
     <string name="Directions_nextto">Next to</string>
     <string name="Directions_between">Between</string>
     <string name="Directions_onFront">On front</string>
-    <string name="daycount_learn_name">Counting Days of the Week</string>
-    <string name="daycount_learn_exp">
-        There are 7 days in a week. In order these are: \n\n
-        1-) Monday \n
-        2-) Tuesday \n
-        3-) Wednesday \n
-        4-) Thursday \n
-        5-) Friday \n
-        6-) Saturday \n
-        7-) Sunday \n\n
-        The last two days are called \'Weekend\'.
-    </string>
+    <string name="daycount_learn_name">Days of the Week</string>
+    <string name="daycount_learn_exp">"         There are 7 days in a week. In order these are:            "</string>
+    <string name="daycount_Mon">Monday</string>
+    <string name="daycount_Tue">Tuesday</string>
+    <string name="daycount_Wed">Wednesday</string>
+    <string name="daycount_Thu">Thursday</string>
+    <string name="daycount_Fri">Friday</string>
+    <string name="daycount_Sat">Saturday</string>
+    <string name="daycount_Sun">Sunday</string>
+    <string name="daycount_Weekend">The last two days are called \'Weekend\'.</string>
+    <string name="daycount_Q1">What is the 3. day of the week ?</string>
+    <string name="daycount_Q2">What is the 5. day of the week ?</string>
+    <string name="daycount_Q3">What is the 6. day of the week ?</string>
 </resources>
