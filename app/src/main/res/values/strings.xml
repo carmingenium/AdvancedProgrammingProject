@@ -148,4 +148,7 @@
     <string name="month11">November </string>
     <string name="month12">December </string>
     <string name="numbercount_learn_name">Number Counting</string>
+    <string name="numbercount_exp">
+        In this experience, we will show you random numbers in an order. You need to remember the numbers and send them back in the order they were shown.
+    </string>
 </resources>
