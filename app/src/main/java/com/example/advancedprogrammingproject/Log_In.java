@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
+import android.content.res.Configuration;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -23,7 +23,7 @@ import org.w3c.dom.Text;
 public class Log_In extends AppCompatActivity {
 
     private EditText usrInput, passwordInput;
-    SharedPreferences sp;
+    SharedPreferences sp, splang;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,12 +34,25 @@ public class Log_In extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
+        splang = getApplicationContext().getSharedPreferences("lang", Context.MODE_PRIVATE);
         setVariables();
         configureMenuButton();
         configureQuitButton();
         configureRegisterClick();
         configureLoginButton();
+
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if(splang.getBoolean("changed", false)){
+            Intent intent = getIntent();
+            finish();
+            startActivity(intent);
+            SharedPreferences.Editor editorlang = splang.edit();
+            editorlang.putBoolean("changed", false);
+            editorlang.commit();
+        }
 
     }
     public void setVariables(){

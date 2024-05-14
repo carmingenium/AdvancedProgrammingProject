@@ -25,7 +25,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     Button LangButton;
-    SharedPreferences sp;
+    SharedPreferences sp, splang;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         sp = getApplicationContext().getSharedPreferences("users", Context.MODE_PRIVATE);
+        splang = getApplicationContext().getSharedPreferences("lang", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editorlang = splang.edit();
         configureLogOutButton();
         configureActivityButtons();
 
@@ -73,6 +75,11 @@ public class MainActivity extends AppCompatActivity {
 
                     getBaseContext().getResources().updateConfiguration(config2,getBaseContext().getResources().getDisplayMetrics());
                 }
+                editorlang.putBoolean("changed", true);
+                editorlang.commit();
+                Intent intent = getIntent();
+                finish();
+                startActivity(intent);
                 return false;
             }
         });
@@ -86,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         TextView welcome = findViewById(R.id.welcome_text);
         //set welcome from username
         String username = sp.getString("logged_user","");
-        welcome.setText(("Welcome, "+username));
+        welcome.setText((getString(R.string.menu_welcome)+" "+username));
     }
     public void configureLogOutButton(){
 
