@@ -8,8 +8,8 @@ her biri için activity setuplamamız lazım.
 2-) Basit activityleri teker teker yapmaya başlamamız lazım.
 	- Analog Clock and Digital Clock
 	- Seasons (with animations (?))
-	- Counting days of week
-	- Counting months of year 
+	- Counting days of week DONE
+	- Counting months of year learn in progress
 	- Remember digits on screen
 	- Remember digits on screen (backwards)
 	- Word spelling program (Needs 2 different wordlist for both languages)
