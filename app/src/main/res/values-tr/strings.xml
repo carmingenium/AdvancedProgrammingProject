@@ -23,4 +23,7 @@
     <string name="menu_multiplication">Çarpım</string>
     <string name="multip_learn">Çarpımı Öğrenme</string>
     <string name="multip_learn_quit">Çıkış</string>
+    <string name="Warn_Failed">Olmadı !</string>
+    <string name="Warn_Success">Harika !</string>
+    <string name="Warn_TextOnly">Sadece Sayı girin lütfen !</string>
 </resources>

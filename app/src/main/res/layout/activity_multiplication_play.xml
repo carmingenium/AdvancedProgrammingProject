@@ -49,57 +49,45 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.google.android.material.textfield.TextInputLayout
+            <EditText
+                android:id="@+id/question1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:hint="@string/multip_example1">
+            </EditText>
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/multip_example1" />
-            </com.google.android.material.textfield.TextInputLayout>
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="10sp"/>
 
-            <com.google.android.material.textfield.TextInputLayout
+            <EditText
+                android:id="@+id/question2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/multip_example2" />
-            </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="wrap_content"
+                android:hint="@string/multip_example2" />
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="10sp" />
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/multip_example3" />
-            </com.google.android.material.textfield.TextInputLayout>
+            <EditText
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/multip_example3" />
+
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="10sp" />
 
-            <com.google.android.material.textfield.TextInputLayout
+            <EditText
+                android:id="@+id/question4"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/multip_example4" />
-            </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="wrap_content"
+                android:hint="@string/multip_example4" />
 
             <Space
                 android:layout_width="match_parent"
@@ -116,15 +104,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="10sp" />
 
-            <com.google.android.material.textfield.TextInputLayout
+            <EditText
+                android:id="@+id/question5"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:hint="@string/multip_example5" />
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/multip_example5" />
-            </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
