@@ -43,8 +43,8 @@
     </string>
     <string name="multip_explanation2">
         Here you can see two repeating things, first is when we change the places of the numbers: for example 4x5 and 5x4, they equal to same number!
-        That's because of a property of multiplication.
-        Also, adding anything zero times means we don't add anything at all!
+        That\'s because of a property of multiplication.
+        Also, adding anything zero times means we don\'t add anything at all!
     </string>
     <string name="app_name">AdvancedProgrammingProject</string>
 </resources>
