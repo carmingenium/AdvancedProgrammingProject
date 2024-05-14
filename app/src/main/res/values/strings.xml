@@ -26,7 +26,7 @@
     <string name="activity_play">Play</string>
     <!-- Multiplication Activity Learn -->
     <string name="multip_learn">Learning Multiplication</string>
-    <string name="multip_explanation1">
+    <string name="multip_explanation1" translatable="false">
         Multiplication is adding objects together multiple times. For example when we say 2 times 2, we add two to zero, two times.
         You can see the multiplication table here:
     </string>
@@ -41,10 +41,10 @@
         8x0 = 0, 8x1 = 8, 8x2 = 16, 8x3 = 24, 8x4 = 32, 8x5 = 40, 8x6 = 48, 8x7 = 56, 8x8 = 64, 8x9 = 72\n
         9x0 = 0, 9x1 = 9, 9x2 = 18, 9x3 = 27, 9x4 = 36, 9x5 = 45, 9x6 = 54, 9x7 = 63, 9x8 = 72, 9x9 = 81\n
     </string>
-    <string name="multip_explanation2">
+    <string name="multip_explanation2" translatable="false">
         Here you can see two repeating things, first is when we change the places of the numbers: for example 4x5 and 5x4, they equal to same number!
-        That's because of a property of multiplication.
-        Also, adding anything zero times means we don't add anything at all!
+        That\'s because of a property of multiplication.
+        Also, adding anything zero times means we don\'t add anything at all!
     </string>
     <string name="app_name">AdvancedProgrammingProject</string>
 </resources>
