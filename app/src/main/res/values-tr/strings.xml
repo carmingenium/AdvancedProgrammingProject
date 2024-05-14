@@ -19,4 +19,6 @@
     <string name="app_name">AdvancedProgrammingProject</string>
     <string name="log_log">Giriş</string>
     <string name="reg_tolog">Giriş Ekranına Dön</string>
+    <string name="menu_multiplication">Çarpım</string>
+    <string name="multip_learn">Çarpımı Öğrenme</string>
 </resources>
