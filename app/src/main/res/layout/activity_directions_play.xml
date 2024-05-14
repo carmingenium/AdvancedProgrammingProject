@@ -120,7 +120,7 @@
                     android:id="@+id/radio23"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/Directions_onFront"
+                    android:text="@string/Directions_onleft"
                     android:textSize="20sp" />
             </RadioGroup>
 
@@ -152,7 +152,7 @@
                     android:id="@+id/radio31"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/Direction_Straight"
+                    android:text="@string/Directions_onFront"
                     android:textSize="20sp" />
 
                 <RadioButton
@@ -166,7 +166,7 @@
                     android:id="@+id/radio33"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/Directions_onFront"
+                    android:text="@string/Directions_nextto"
                     android:textSize="20sp" />
             </RadioGroup>
 

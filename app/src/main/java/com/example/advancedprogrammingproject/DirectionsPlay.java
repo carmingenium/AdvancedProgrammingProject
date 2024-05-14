@@ -38,12 +38,10 @@ public class DirectionsPlay extends AppCompatActivity {
 
                     public void onCheckedChanged(RadioGroup group,
                                                  int checkedId) {
-                        RadioButton
-                                radioButton
-                                = (RadioButton) group
-                                .findViewById(checkedId);
-                        String btnName = radioButton.getText().toString();
-                        if(checkedId==2)
+
+                        RadioButton ans2 = findViewById(R.id.radio2);
+
+                        if(ans2.isChecked())
                         {
                             Toast.makeText(DirectionsPlay.this, getString(R.string.Warn_Success), Toast.LENGTH_SHORT).show();
                         }
@@ -60,7 +58,16 @@ public class DirectionsPlay extends AppCompatActivity {
 
                     public void onCheckedChanged(RadioGroup group,
                                                  int checkedId) {
-                        RadioButton  radioButton = (RadioButton) group.findViewById(checkedId);
+
+                        RadioButton ans3 = findViewById(R.id.radio23);
+                        if(ans3.isChecked())
+                        {
+                            Toast.makeText(DirectionsPlay.this, getString(R.string.Warn_Success), Toast.LENGTH_SHORT).show();
+                        }
+                        else
+                        {
+                            Toast.makeText(DirectionsPlay.this, getString(R.string.Warn_Failed), Toast.LENGTH_LONG).show();
+                        }
                     }
                 });
         Ans3.setOnCheckedChangeListener(
@@ -70,10 +77,16 @@ public class DirectionsPlay extends AppCompatActivity {
 
                     public void onCheckedChanged(RadioGroup group,
                                                  int checkedId) {
-                        RadioButton
-                                radioButton
-                                = (RadioButton) group
-                                .findViewById(checkedId);
+                        RadioButton ans1 = findViewById(R.id.radio31);
+
+                        if(ans1.isChecked())
+                        {
+                            Toast.makeText(DirectionsPlay.this, getString(R.string.Warn_Success), Toast.LENGTH_SHORT).show();
+                        }
+                        else
+                        {
+                            Toast.makeText(DirectionsPlay.this, getString(R.string.Warn_Failed), Toast.LENGTH_LONG).show();
+                        }
                     }
                 });
     }
