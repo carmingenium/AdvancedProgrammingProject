@@ -13,6 +13,15 @@
         android:theme="@style/Theme.AdvancedProgrammingProject"
         tools:targetApi="31">
         <activity
+            android:name=".NumberCountingReverseLearn"
+            android:exported="false" />
+        <activity
+            android:name=".NumberCountingLearn"
+            android:exported="false" />
+        <activity
+            android:name=".MonthCountingLearn"
+            android:exported="false" />
+        <activity
             android:name=".DayCountingPlay"
             android:exported="false" />
         <activity
