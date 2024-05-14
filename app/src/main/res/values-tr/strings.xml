@@ -78,6 +78,6 @@
     <string name="month10">Ekim</string>
     <string name="month11">Kasım</string>
     <string name="month12">Aralık</string>
-    <string name="numbercount_learn_name">Sayım</string>
-    <string name="numbercount_reverse_learn_name">Geri Sayım</string>
+    <string name="numbercount_learn_name">Sayı Sayma</string>
+    <string name="numbercount_reverse_learn_name">Geriye Sayma</string>
 </resources>

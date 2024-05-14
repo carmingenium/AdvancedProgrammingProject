@@ -156,14 +156,14 @@ public class MainActivity extends AppCompatActivity {
         activityButton6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ExampleActivity.class));
+                startActivity(new Intent(MainActivity.this, NumberCountingLearn.class));
             }
         });
         Button activityButton7 = (Button) findViewById(R.id.activity7);
         activityButton7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ExampleActivity.class));
+                startActivity(new Intent(MainActivity.this, NumberCountingReverseLearn.class));
             }
         });
         Button activityButton8 = (Button) findViewById(R.id.activity8);

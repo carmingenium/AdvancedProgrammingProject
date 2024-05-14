@@ -103,7 +103,7 @@
                 android:id="@+id/activity6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/menu_activity" />
+                android:text="@string/numbercount_learn_name" />
 
             <Space
                 android:layout_width="match_parent"
@@ -113,7 +113,7 @@
                 android:id="@+id/activity7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/menu_activity" />
+                android:text="@string/numbercount_reverse_learn_name" />
 
             <Space
                 android:layout_width="match_parent"
