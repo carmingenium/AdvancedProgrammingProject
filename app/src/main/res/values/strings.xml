@@ -35,5 +35,7 @@
         That\'s because of a property of multiplication.\n\n
         Also, adding anything zero times means we don\'t add anything at all!
     </string>
+    <string name="multip_play">Play</string>
+    <string name="multip_learn_quit">Quit</string>
     <string name="app_name">AdvancedProgrammingProject</string>
 </resources>
