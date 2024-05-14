@@ -13,10 +13,10 @@ her biri için activity setuplamamız lazım.
 	- Remember digits on screen
 	- Remember digits on screen (backwards)
 	- Word spelling program (Needs 2 different wordlist for both languages)
-	- Directions - ON PROGRESS
-	- Multiplication LAYOUT DONE
-	- Similar picture finding
-	- A ball that imitates how people read lines.
+	- Directions - DONE
+	- Multiplication DONE
+	- Similar picture finding PICTURES DONE
+	- A ball that imitates how people read lines. DONE
 	- For all activities, a learning part and a playing part. !!
 	- For all activities, every point received should give positive feedback. (On every success, show affirmative sentences (around 5 different sentences would be enough)
 
