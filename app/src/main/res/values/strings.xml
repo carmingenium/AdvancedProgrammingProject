@@ -57,9 +57,12 @@
     <string name="direction_learn_quit" translatable="false"> Quit </string>
     <string name="direction_play" translatable="false"> Play </string>
     <!-- Direction Play -->
-
+    <string name="direction_play_name"> Playing Activity </string>
 
     <!-- Direction Examples-->
+    <string name="direction_play_q"> What does the picture above represent? </string>
+
+
 
     <string name="app_name">AdvancedProgrammingProject</string>
 
