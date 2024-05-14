@@ -60,10 +60,10 @@
                 android:layout_height="19dp" />
 
             <Button
-                android:id="@+id/activity2"
+                android:id="@+id/ball_on_screen_activity_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/menu_activity" />
+                android:text="@string/menu_ball_on_screen" />
 
             <Space
                 android:layout_width="match_parent"

@@ -124,11 +124,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, MultiplicationLearn.class));
             }
         });
-        Button activityButton2 = (Button) findViewById(R.id.activity2);
+        Button activityButton2 = (Button) findViewById(R.id.ball_on_screen_activity_button);
         activityButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ExampleActivity.class));
+                startActivity(new Intent(MainActivity.this, OnScreenBall.class));
             }
         });
         Button activityButton3 = (Button) findViewById(R.id.activity3);
