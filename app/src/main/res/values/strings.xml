@@ -134,17 +134,18 @@
     <string name="monthcount_learn_name">Counting Months of the Year</string>
     <string name="monthcount_learn_exp">
         There are 12 months in a year. In order these are: \n\n
-        1-) January \n
-        2-) February \n
-        3-) March \n
-        4-) April \n
-        5-) May \n
-        6-) June \n
-        7-) July \n
-        8-) August \n
-        9-) September \n
-        10-) October \n
-        11-) November \n
-        12-) December \n\n
     </string>
+    <string name="month1">January </string>
+    <string name="month2">February </string>
+    <string name="month3">March </string>
+    <string name="month4">April </string>
+    <string name="month5">May </string>
+    <string name="month6">June </string>
+    <string name="month7">July </string>
+    <string name="month8">August </string>
+    <string name="month9">September </string>
+    <string name="month10">October </string>
+    <string name="month11">November </string>
+    <string name="month12">December </string>
+    <string name="numbercount_learn_name">Number Counting</string>
 </resources>
