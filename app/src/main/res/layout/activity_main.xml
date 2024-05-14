@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8F8D8D"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,7 +14,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="test"
+        android:textColor="#1B1A1A"
         android:textSize="40sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
