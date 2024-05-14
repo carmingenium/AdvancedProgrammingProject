@@ -151,4 +151,8 @@
     <string name="numbercount_exp">
         In this experience, we will show you random numbers in an order. You need to remember the numbers and send them back in the order they were shown.
     </string>
+    <string name="numbercount_reverse_learn_name">Reverse Number Counting</string>
+    <string name="numbercount_reverse_exp">
+        In this experience, we will show you random numbers in an order. You need to remember the numbers and send them back in the reversed order.
+    </string>
 </resources>

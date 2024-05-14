@@ -10,7 +10,7 @@ her biri için activity setuplamamız lazım.
 	- Seasons (with animations (?))
 	- Counting days of week DONE
 	- Counting months of year learn DONE
-	- Remember digits on screen
+	- Remember digits on screen learn DONE
 	- Remember digits on screen (backwards)
 	- Word spelling program (Needs 2 different wordlist for both languages)
 	- Directions - DONE
