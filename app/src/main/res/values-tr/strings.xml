@@ -65,7 +65,7 @@
     <string name="daycount_Q2">Haftanın 5. günü hangisidir?</string>
     <string name="daycount_Q3">Haftanın 6. günü hangisidir?</string>
     <string name="monthcount_learn_name">Yılın Ayları</string>
-    <string name="monthcount_learn_exp">"Yılda 12 ay vardır. Sırasıyla Şunlardır: \\n\\n  "</string>
+    <string name="monthcount_learn_exp">"Yılda 12 ay vardır. Sırasıyla Şunlardır: "</string>
     <string name="month1">Ocak</string>
     <string name="month2">Şubat</string>
     <string name="month3">Mart</string>

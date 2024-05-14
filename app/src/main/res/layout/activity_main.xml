@@ -93,7 +93,7 @@
                 android:id="@+id/activity5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/menu_activity" />
+                android:text="@string/monthcount_learn_name" />
 
             <Space
                 android:layout_width="match_parent"
