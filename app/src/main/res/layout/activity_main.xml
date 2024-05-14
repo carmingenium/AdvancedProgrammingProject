@@ -73,7 +73,7 @@
                 android:id="@+id/activity3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/menu_activity" />
+                android:text="@string/direction_name_learn" />
 
             <Space
                 android:layout_width="match_parent"

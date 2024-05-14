@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
         activityButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ExampleActivity.class));
+                startActivity(new Intent(MainActivity.this, DirectionsLearn.class));
             }
         });
         Button activityButton4 = (Button) findViewById(R.id.activity4);

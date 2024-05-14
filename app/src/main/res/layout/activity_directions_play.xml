@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="300dp"
+    android:layout_height="800dp"
+    android:background="#8F8D8D"
     tools:context=".DirectionsPlay">
 
     <TextView
@@ -22,7 +23,7 @@
 
     <ScrollView
         android:layout_width="390dp"
-        android:layout_height="500dp"
+        android:layout_height="600dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="10dp"
@@ -38,7 +39,7 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="150dp"
                 app:srcCompat="@drawable/turn_right" />
 
             <TextView
@@ -49,6 +50,34 @@
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
+            <RadioGroup
+                android:id="@+id/Answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Direction_Straight"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Directions_Right"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Directions_onFront"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="20sp" />
@@ -56,7 +85,7 @@
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="150dp"
                 app:srcCompat="@drawable/on_the_left" />
 
             <TextView
@@ -67,6 +96,34 @@
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
+            <RadioGroup
+                android:id="@+id/Answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio21"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Direction_Straight"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radio22"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Directions_Right"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radio23"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Directions_onFront"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="20sp" />
@@ -74,8 +131,8 @@
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                app:srcCompat="@drawable/on_the_right" />
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/in_front_of" />
 
             <TextView
                 android:id="@+id/direction_play_q3"
@@ -84,6 +141,34 @@
                 android:text="@string/direction_play_q"
                 android:textAlignment="center"
                 android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/Answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio31"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Direction_Straight"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radio32"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Directions_Right"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radio33"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Directions_onFront"
+                    android:textSize="20sp" />
+            </RadioGroup>
 
             <Space
                 android:layout_width="match_parent"

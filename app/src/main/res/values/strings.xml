@@ -19,7 +19,7 @@
     <string name="menu_language">Lang</string>
     <string name="menu_welcome">Welcome,</string>
     <string name="menu_multiplication">Multiplication</string>
-    <string name="menu_ball_on_screen" translatable="false">Ball on Screen</string>
+    <string name="menu_ball_on_screen">Ball on Screen</string>
     <!-- Example Activity -->
     <string name="activity_back">Back</string>
     <string name="activity_current">Current Activity</string>
@@ -39,23 +39,23 @@
     <string name="multip_play">Play</string>
     <string name="multip_learn_quit">Quit</string>
     <!-- Multiplication Activity Play -->
-    <string name="multip_play_name" translatable="false">Playing Activity</string>
-    <string name="multip_play_explanation" translatable="false">Here you can test what you have learned.</string>
+    <string name="multip_play_name">Playing Activity</string>
+    <string name="multip_play_explanation">Here you can test what you have learned.</string>
     <!-- Multiplication Examples -->
-    <string name="multip_example1" translatable="false"> What is 1x5?</string>
-    <string name="multip_example2" translatable="false"> What is 7x9</string>
-    <string name="multip_example3" translatable="false"> What is 10x2</string>
-    <string name="multip_example4" translatable="false"> What is 2x7</string>
-    <string name="multip_warning" translatable="false"> This is a hard one.</string>
-    <string name="multip_example5" translatable="false"> What is 11x7</string>
+    <string name="multip_example1"> What is 1x5?</string>
+    <string name="multip_example2">" What is 7x6"</string>
+    <string name="multip_example3"> What is 10x2</string>
+    <string name="multip_example4"> What is 2x7</string>
+    <string name="multip_warning"> This is a hard one.</string>
+    <string name="multip_example5"> What is 11x7</string>
 
     <!-- Direction Learn -->
-    <string name="direction_name_learn" translatable="false"> Learning Directions</string>
+    <string name="direction_name_learn"> Learning Directions</string>
     <string name="direction_exp1" translatable="false">
         Today we are learning directions.
     </string>
-    <string name="direction_learn_quit" translatable="false"> Quit </string>
-    <string name="direction_play" translatable="false"> Play </string>
+    <string name="direction_learn_quit"> Quit </string>
+    <string name="direction_play"> Play </string>
     <!-- Direction Play -->
     <string name="direction_play_name"> Playing Activity </string>
 
@@ -70,8 +70,8 @@
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label" translatable="false">First Fragment</string>
     <string name="second_fragment_label" translatable="false">Second Fragment</string>
-    <string name="next" translatable="false">Next</string>
-    <string name="previous" translatable="false">Previous</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 
     <string name="lorem_ipsum" translatable="false">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
@@ -112,4 +112,12 @@
     <string name="Warn_Failed">Failed !</string>
     <string name="Warn_Success">Correct !</string>
     <string name="Warn_TextOnly">Enter only numbers please !</string>
+    <string name="Direction_Straight">Straight</string>
+    <string name="Directions_Left">Left</string>
+    <string name="Directions_Right">Right</string>
+    <string name="Directions_onRight">On the right</string>
+    <string name="Directions_onleft">On the left</string>
+    <string name="Directions_nextto">Next to</string>
+    <string name="Directions_between">Between</string>
+    <string name="Directions_onFront">On front</string>
 </resources>
