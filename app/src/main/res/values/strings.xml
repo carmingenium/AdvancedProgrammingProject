@@ -37,5 +37,18 @@
     </string>
     <string name="multip_play">Play</string>
     <string name="multip_learn_quit">Quit</string>
+    <!-- Multiplication Activity Play -->
+    <string name="multip_play_name">Playing Activity</string>
+    <string name="multip_play_explanation">Here you can test what you have learned.</string>
+    <!-- Multiplication Examples -->
+    <string name="multip_example1"> What is 1x5?</string>
+    <string name="multip_example2"> What is 7x9</string>
+    <string name="multip_example3"> What is 10x2</string>
+    <string name="multip_example4"> What is 2x7</string>
+    <string name="multip_warning"> This is a hard one.</string>
+    <string name="multip_example5"> What is 11x7</string>
+
+
+
     <string name="app_name">AdvancedProgrammingProject</string>
 </resources>
