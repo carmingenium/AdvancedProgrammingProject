@@ -11,7 +11,7 @@ her biri için activity setuplamamız lazım.
 	- Counting days of week DONE
 	- Counting months of year learn DONE
 	- Remember digits on screen learn DONE
-	- Remember digits on screen (backwards)
+	- Remember digits on screen (backwards)learn done
 	- Word spelling program (Needs 2 different wordlist for both languages)
 	- Directions - DONE
 	- Multiplication DONE
