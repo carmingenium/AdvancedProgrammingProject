@@ -1,35 +1,38 @@
 package com.example.advancedprogrammingproject;
 
+import android.animation.Animator;
+import android.animation.ObjectAnimator;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
+import android.animation.ObjectAnimator;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-import androidx.annotation.RequiresApi;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
-import android.animation.ObjectAnimator;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.Toast;
-
-public class OnScreenBall extends AppCompatActivity {
+public class LeranSeasonsAnime extends AppCompatActivity {
+    int seasonid=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_on_screen_ball);
+        setContentView(R.layout.activity_leran_seasons_anime);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
         // Creating Views for the two images
-        ImageView ball1 = findViewById(R.id.ballobject);
+        ImageView ball1 = findViewById(R.id.seasonimage);
+        TextView text1 = findViewById(R.id.season_name);
+        text1.setText(R.string.seasons_winter);
         // Creating Animations using ObjectAnimators
         ObjectAnimator Animateball1 = ObjectAnimator.ofFloat(ball1, "translationX", 700f);
         Animateball1.setDuration(4000);
@@ -48,21 +51,43 @@ public class OnScreenBall extends AppCompatActivity {
             @Override
             public void onAnimationEnd(Animator animation) {
                 super.onAnimationEnd(animation);
-                View view1 = ball1;
-                // Place the glasses again in the top
-                float currentY = view1.getY();
-                view1.setY(currentY+120);
-                // End the animations
-                if(currentY>=500)
+
+                if(seasonid==3)
                 {
                     Animateball1.cancel();
                 }
-                else {
-                    Animateball1.start();
+                else
+                {
+                    if(seasonid==0){
+                        ball1.setImageResource(R.drawable.spring_season);
+                        seasonid+=1;
+                        text1.setText(R.string.seasons_spring);
+                        Animateball1.start();
+                    }
+                    else
+                    if(seasonid==1){
+                        ball1.setImageResource(R.drawable.summer_season);
+                        seasonid+=1;
+                        text1.setText(R.string.seasons_summer);
+                        Animateball1.start();
+                    }
+                    else
+                    if(seasonid==2){
+                        ball1.setImageResource(R.drawable.autumn_season);
+                        seasonid+=1;
+                        text1.setText(R.string.seasons_autumn);
+                        Animateball1.start();
+                    }
+                    else
+                    {
+                        Animateball1.cancel();
+                    }
+
                 }
             }
         });
         Animateball1.start();
+
     }
 
     public void ConfigureBackButton() {
@@ -74,5 +99,4 @@ public class OnScreenBall extends AppCompatActivity {
             }
         });
     }
-
 }
