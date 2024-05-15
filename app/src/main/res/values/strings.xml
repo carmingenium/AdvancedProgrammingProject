@@ -153,4 +153,8 @@
     <string name="FindSimilar_Tree_Exp">These trees are similar.</string>
     <string name="FindSimilar_Bicycle">These Bicycles are similar.</string>
     <string name="FindSimilar_Dif_Objects">These objects are not similar.</string>
+    <string name="Answer_Yes">Yes</string>
+    <string name="Answer_No">No</string>
+    <string name="FindSimilarPlay_Question">Are those pictures similar?</string>
+    <string name="FindSimilarPlay_Title">Find the similar pictures !</string>
 </resources>

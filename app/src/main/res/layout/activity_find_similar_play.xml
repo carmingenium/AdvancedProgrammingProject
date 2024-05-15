@@ -5,6 +5,197 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8F8D8D"
     tools:context=".FindSimilar_Play">
+    <TextView
+        android:id="@+id/Clock_learn_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="182dp"
+        android:text="@string/FindSimilars"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <ScrollView
+        android:layout_width="390dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Clock_learn_name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/direction_exp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FindSimilarPlay_Title"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FindSimilarPlay_Question"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                app:layout_constraintTop_toBottomOf="@+id/img1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="188dp"
+                    android:layout_height="100dp"
+
+                    app:layout_constraintTop_toBottomOf="@+id/direction_exp1"
+                    app:srcCompat="@drawable/agac1x1" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="177dp"
+                    android:layout_height="100dp"
+                    app:layout_constraintTop_toBottomOf="@+id/direction_exp1"
+                    app:srcCompat="@drawable/agac2_1x1" />
+
+            </LinearLayout>
+            <RadioGroup
+                android:id="@+id/Answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="@string/Answer_Yes"
+                    android:textSize="20sp" />
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Answer_No"
+                    android:textSize="20sp" />
+            </RadioGroup>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="188dp"
+                    android:layout_height="100dp"
+                    app:layout_constraintTop_toBottomOf="@+id/direction_exp1"
+                    app:srcCompat="@drawable/yellow_bicycle_1x1" />
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="177dp"
+                    android:layout_height="100dp"
+                    app:layout_constraintTop_toBottomOf="@+id/direction_exp1"
+                    app:srcCompat="@drawable/bicycle_black1x1" />
+
+            </LinearLayout>
+            <RadioGroup
+                android:id="@+id/Answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio21"
+                    android:layout_width="180dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Answer_Yes"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radio22"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Answer_No"
+                    android:textSize="20sp" />
+            </RadioGroup>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="188dp"
+                    android:layout_height="100dp"
+                    app:layout_constraintTop_toBottomOf="@+id/direction_exp1"
+                    app:srcCompat="@drawable/mikasa1x1" />
+
+                <ImageView
+                    android:id="@+id/img6"
+                    android:layout_width="177dp"
+                    android:layout_height="100dp"
+                    app:layout_constraintTop_toBottomOf="@+id/direction_exp1"
+                    app:srcCompat="@drawable/yellow_bicycle_1x1" />
+
+            </LinearLayout>
+            <RadioGroup
+                android:id="@+id/Answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio31"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="@string/Answer_Yes"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radio32"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Answer_No"
+                    android:textSize="20sp" />
+            </RadioGroup>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/direction_learn_quit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

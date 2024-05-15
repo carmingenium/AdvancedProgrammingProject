@@ -119,5 +119,9 @@
     <string name="FindSimilar_Tree_Exp">Bu ağaçlar benzerdir.</string>
     <string name="FindSimilar_Bicycle">Bu bisikletler benzerdir.</string>
     <string name="FindSimilar_Dif_Objects">Bu şekiller farklıdır.</string>
+    <string name="Answer_Yes">Evet</string>
+    <string name="Answer_No">Hayır</string>
+    <string name="FindSimilarPlay_Question">Bu resimler benzer mi?</string>
+    <string name="FindSimilarPlay_Title">Benzer resimleri bulun !</string>
 
 </resources>

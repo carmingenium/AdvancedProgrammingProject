@@ -1,6 +1,11 @@
 package com.example.advancedprogrammingproject;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +24,82 @@ public class FindSimilar_Play extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+        RadioGroup Ans1 = (RadioGroup) findViewById(R.id.Answer1);
+        RadioGroup Ans2 = (RadioGroup) findViewById(R.id.Answer2);
+        RadioGroup Ans3 = (RadioGroup) findViewById(R.id.Answer3);
+        // Uncheck or reset the radio buttons initially
+        Ans1.clearCheck();
+        Ans2.clearCheck();
+        Ans3.clearCheck();
+
+        ConfigureQuitButton();
+        Ans1.setOnCheckedChangeListener(
+                new RadioGroup
+                        .OnCheckedChangeListener() {
+                    @Override
+
+                    public void onCheckedChanged(RadioGroup group,
+                                                 int checkedId) {
+
+                        RadioButton ans2 = findViewById(R.id.radio1);
+
+                        if(ans2.isChecked())
+                        {
+                            Toast.makeText(FindSimilar_Play.this, getString(R.string.Warn_Success), Toast.LENGTH_SHORT).show();
+                        }
+                        else
+                        {
+                            Toast.makeText(FindSimilar_Play.this, getString(R.string.Warn_Failed), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+        Ans2.setOnCheckedChangeListener(
+                new RadioGroup
+                        .OnCheckedChangeListener() {
+                    @Override
+
+                    public void onCheckedChanged(RadioGroup group,
+                                                 int checkedId) {
+
+                        RadioButton ans3 = findViewById(R.id.radio21);
+                        if(ans3.isChecked())
+                        {
+                            Toast.makeText(FindSimilar_Play.this, getString(R.string.Warn_Success), Toast.LENGTH_SHORT).show();
+                        }
+                        else
+                        {
+                            Toast.makeText(FindSimilar_Play.this, getString(R.string.Warn_Failed), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+        Ans3.setOnCheckedChangeListener(
+                new RadioGroup
+                        .OnCheckedChangeListener() {
+                    @Override
+
+                    public void onCheckedChanged(RadioGroup group,
+                                                 int checkedId) {
+                        RadioButton ans1 = findViewById(R.id.radio32);
+
+                        if(ans1.isChecked())
+                        {
+                            Toast.makeText(FindSimilar_Play.this, getString(R.string.Warn_Success), Toast.LENGTH_SHORT).show();
+                        }
+                        else
+                        {
+                            Toast.makeText(FindSimilar_Play.this, getString(R.string.Warn_Failed), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+    }
+    public void ConfigureQuitButton() {
+        Button playButton = (Button) findViewById(R.id.btn_quit);
+        playButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
         });
     }
 }
