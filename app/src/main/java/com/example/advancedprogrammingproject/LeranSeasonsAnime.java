@@ -2,6 +2,7 @@ package com.example.advancedprogrammingproject;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -37,6 +38,7 @@ public class LeranSeasonsAnime extends AppCompatActivity {
         ObjectAnimator Animateball1 = ObjectAnimator.ofFloat(ball1, "translationX", 700f);
         Animateball1.setDuration(4000);
         ConfigureBackButton();
+        ConfigurePlayButton();
 
         // Adding onClick Listeners to check the correct side
         ball1.setOnClickListener(new View.OnClickListener() {
@@ -96,6 +98,15 @@ public class LeranSeasonsAnime extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
+            }
+        });
+    }
+    public void ConfigurePlayButton() {
+        Button BackToMenuButton = (Button) findViewById(R.id.season_play);
+        BackToMenuButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LeranSeasonsAnime.this, LearnSeasonsPlay.class));
             }
         });
     }
