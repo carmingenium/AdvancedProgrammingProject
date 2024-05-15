@@ -148,4 +148,9 @@
     <string name="Analog_1440">Twenty to three.</string>
     <string name="Analog_1615">A quarter past four.</string>
     <string name="Analog_1700">Five O\'clock (Am/Pm)</string>
+    <string name="FindSimilars">Find similar objects</string>
+    <string name="FindSimilar_exp">Some objects are very similar but not same. See how it happens?</string>
+    <string name="FindSimilar_Tree_Exp">These trees are similar.</string>
+    <string name="FindSimilar_Bicycle">These Bicycles are similar.</string>
+    <string name="FindSimilar_Dif_Objects">These objects are not similar.</string>
 </resources>

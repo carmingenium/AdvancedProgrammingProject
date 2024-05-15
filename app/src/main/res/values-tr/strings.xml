@@ -114,5 +114,10 @@
     <string name="Analog_1440">Üçe yirmi var.</string>
     <string name="Analog_1615">Dördü çeyrek geçiyor</string>
     <string name="Analog_1700">Beş (Sabah(Öğleden Sonra)</string>
+    <string name="FindSimilars">Benzer şekilleri bulma</string>
+    <string name="FindSimilar_exp">Bazı şekiller çok benzemesine rağmen aynı değildir. Nasıl olduğuna bakın.</string>
+    <string name="FindSimilar_Tree_Exp">Bu ağaçlar benzerdir.</string>
+    <string name="FindSimilar_Bicycle">Bu bisikletler benzerdir.</string>
+    <string name="FindSimilar_Dif_Objects">Bu şekiller farklıdır.</string>
 
 </resources>
