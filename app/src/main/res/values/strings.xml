@@ -112,12 +112,24 @@
     <string name="month11">November </string>
     <string name="month12">December </string>
     <string name="numbercount_learn_name">Number Counting</string>
-    <string name="numbercount_exp" translatable="false">In this experience, we will show you random numbers in an order. You need to remember the numbers and send them back in the order they were shown.
+    <string name="numbercount_exp">In this experience, we will show you numbers in an order. You need to remember the numbers and send them back in the order they were shown.
     </string>
     <string name="numbercount_reverse_learn_name">Reverse Number Counting</string>
-    <string name="numbercount_reverse_exp" translatable="false">In this experience, we will show you random numbers in an order. You need to remember the numbers and send them back in the reversed order.
-    </string>
+    <string name="numbercount_reverse_exp">"In this experience, we will show you random numbers in an order. You need to remember the numbers and send them back in the reversed order.     "</string>
     <string name="monthcount_Q1">What is the 2. month of the year?</string>
     <string name="monthcount_Q2">What is the 5. month of the year?</string>
     <string name="monthcount_Q3">What is the 8. month of the year?</string>
+    <string name="numbercount_0">0 : Zero</string>
+    <string name="numbercount_1">1 : One</string>
+    <string name="numbercount_2">2 : Two"</string>
+    <string name="numbercount_3">3 : Three"</string>
+    <string name="numbercount_4">4 : Four</string>
+    <string name="numbercount_5">5 : Five</string>
+    <string name="numbercount_6">6 : Six</string>
+    <string name="numbercount_7">7 : Seven</string>
+    <string name="numbercount_8">8 : Eight</string>
+    <string name="numbercount_9">9 : Nine</string>
+    <string name="monthcount_exp2">There 10 numbers. These are in order:</string>
+    <string name="numbercountplay_exp">Write down the numbers in the ascending order.</string>
+    <string name="numbercountreverseplay_exp">Write down the numbers in the descending order.</string>
 </resources>

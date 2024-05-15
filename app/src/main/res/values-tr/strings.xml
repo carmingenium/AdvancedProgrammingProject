@@ -79,8 +79,23 @@
     <string name="month11">Kasım</string>
     <string name="month12">Aralık</string>
     <string name="numbercount_learn_name">Sayı Sayma</string>
+    <string name="numbercount_exp">Bu aşamada size sırasıyla sayıları göstereceğiz. Numaraları hatırlamanız ve gösterildikleri sıraya göre geri vermeniz gerekir.</string>
     <string name="numbercount_reverse_learn_name">Geriye Sayma</string>
+    <string name="numbercount_reverse_exp">Bu deneyimde size sayıları büyükten küçüğe doğru göstereceğiz. Numaraları hatırlamanız ve ters sırayla geri vermeniz gerekir.</string>
     <string name="monthcount_Q1">Yılın 2. ayı hangisidir?</string>
     <string name="monthcount_Q2">Yılın 5. ayı hangisidir?</string>
     <string name="monthcount_Q3">Yılın 8. ayı hangisidir?</string>
+    <string name="numbercount_1">1 : Bir</string>
+    <string name="numbercount_0">0 : Sıfır</string>
+    <string name="numbercount_2">2 : İki</string>
+    <string name="numbercount_3">3 : Üç</string>
+    <string name="numbercount_4">4 : Dört</string>
+    <string name="numbercount_5">5 : Beş</string>
+    <string name="numbercount_6">6 : Altı</string>
+    <string name="numbercount_7">7 : Yedi</string>
+    <string name="numbercount_8">8 : Sekiz</string>
+    <string name="numbercount_9">9 : Dokuz</string>
+    <string name="monthcount_exp2">10 sayı vardır, sırayla şunlardır:</string>
+    <string name="numbercountplay_exp">Sayıları aşağıya kücükten büyüğe doğru yazın.</string>
+    <string name="numbercountreverseplay_exp">Sayıları aşağıya büyükten küçüğe doğru yazın.</string>
 </resources>
