@@ -157,4 +157,9 @@
     <string name="Answer_No">No</string>
     <string name="FindSimilarPlay_Question">Are those pictures similar?</string>
     <string name="FindSimilarPlay_Title">Find the similar pictures !</string>
+    <string name="SpellingLearn_Name">Spelling a Word</string>
+    <string name="SpellingLearn_Exp">In this experience, we will show you how a word is spelled with letters.</string>
+    <string name="SpellingWord">Picture</string>
+    <string name="SpellingPlay_Exp">Please fill in the blanks the letters of the word below:</string>
+    <string name="Check">Check</string>
 </resources>

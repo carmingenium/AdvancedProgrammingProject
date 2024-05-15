@@ -123,5 +123,10 @@
     <string name="Answer_No">Hayır</string>
     <string name="FindSimilarPlay_Question">Bu resimler benzer mi?</string>
     <string name="FindSimilarPlay_Title">Benzer resimleri bulun !</string>
+    <string name="SpellingLearn_Name">Harflere Ayırma</string>
+    <string name="SpellingLearn_Exp">Bu deneyimde sizlere bir kelimenin harflere nasıl ayrıldığını göstereceğiz.</string>
+    <string name="SpellingWord">Merhaba</string>
+    <string name="SpellingPlay_Exp">Lütfen boşluklara aşağıda verilen kelimenin harflerini giriniz:</string>
+    <string name="Check">Kontrol et</string>
 
 </resources>

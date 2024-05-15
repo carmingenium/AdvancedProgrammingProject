@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F8D8D"
+    tools:context=".SpellingLearn">
+    <TextView
+        android:id="@+id/Spelling_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="182dp"
+        android:text="@string/SpellingLearn_Name"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="390dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Spelling_name">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+        android:id="@+id/Spelling_exp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SpellingLearn_Exp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+        <Space
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:textAlignment="center"
+            android:textSize="48sp"
+            app:layout_constraintTop_toBottomOf="@+id/img1" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50sp" />
+        <TextView
+            android:id="@+id/spell10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="A - n - d - r - o - i - d"
+            android:textAlignment="center"
+            android:textSize="44sp"
+            app:layout_constraintTop_toBottomOf="@+id/txt1" />
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/direction_learn_quit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/direction_play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -191,7 +191,7 @@ public class MainActivity extends AppCompatActivity {
         activityButton11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ExampleActivity.class));
+                startActivity(new Intent(MainActivity.this, SpellingLearn.class));
             }
         });
     }
