@@ -132,4 +132,11 @@
     <string name="monthcount_exp2">There 10 numbers. These are in order:</string>
     <string name="numbercountplay_exp">Write down the numbers in the ascending order.</string>
     <string name="numbercountplayreverse_exp">Write down the numbers in the descending order.</string>
+    <string name="seasons_spring">Spring</string>
+    <string name="seasons_summer">Summer</string>
+    <string name="seasons_autumn">Autumn</string>
+    <string name="seasons_winter">Winter</string>
+    <string name="btn_Next">Next</string>
+    <string name="Seasons">Seasons</string>
+    <string name="Seasons_Exp">"In this experience, you will learn seasons. "</string>
 </resources>

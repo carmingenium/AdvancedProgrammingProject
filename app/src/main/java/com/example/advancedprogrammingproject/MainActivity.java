@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
         activityButton8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ExampleActivity.class));
+                startActivity(new Intent(MainActivity.this, SeasonLearn.class));
             }
         });
         Button activityButton9 = (Button) findViewById(R.id.activity9);

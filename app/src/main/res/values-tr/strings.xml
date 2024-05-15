@@ -98,5 +98,12 @@
     <string name="monthcount_exp2">10 sayı vardır, sırayla şunlardır:</string>
     <string name="numbercountplay_exp">Sayıları aşağıya kücükten büyüğe doğru yazın.</string>
     <string name="numbercountplayreverse_exp">Sayıları aşağıya büyükten küçüğe doğru yazın.</string>
+    <string name="seasons_spring">İlkbahar</string>
+    <string name="seasons_summer">Yaz</string>
+    <string name="seasons_autumn">Sonbahar</string>
+    <string name="seasons_winter">Kış</string>
+    <string name="btn_Next">Sonraki</string>
+    <string name="Seasons">Mevsimler</string>
+    <string name="Seasons_Exp">Bu aşamada mevsimleri öğreneceksiniz.</string>
 
 </resources>
