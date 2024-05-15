@@ -31,7 +31,7 @@ public class AnalogClockLearn extends AppCompatActivity {
         playButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AnalogClockLearn.this, DirectionsPlay.class));
+                startActivity(new Intent(AnalogClockLearn.this, AnalogClockPlay.class));
             }
         });
     }
