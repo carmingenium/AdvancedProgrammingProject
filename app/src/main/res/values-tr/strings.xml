@@ -97,5 +97,6 @@
     <string name="numbercount_9">9 : Dokuz</string>
     <string name="monthcount_exp2">10 sayı vardır, sırayla şunlardır:</string>
     <string name="numbercountplay_exp">Sayıları aşağıya kücükten büyüğe doğru yazın.</string>
-    <string name="numbercountreverseplay_exp">Sayıları aşağıya büyükten küçüğe doğru yazın.</string>
+    <string name="numbercountplayreverse_exp">Sayıları aşağıya büyükten küçüğe doğru yazın.</string>
+
 </resources>

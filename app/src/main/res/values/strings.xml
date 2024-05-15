@@ -131,5 +131,5 @@
     <string name="numbercount_9">9 : Nine</string>
     <string name="monthcount_exp2">There 10 numbers. These are in order:</string>
     <string name="numbercountplay_exp">Write down the numbers in the ascending order.</string>
-    <string name="numbercountreverseplay_exp">Write down the numbers in the descending order.</string>
+    <string name="numbercountplayreverse_exp">Write down the numbers in the descending order.</string>
 </resources>
