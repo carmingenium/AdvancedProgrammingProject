@@ -105,5 +105,14 @@
     <string name="btn_Next">Sonraki</string>
     <string name="Seasons">Mevsimler</string>
     <string name="Seasons_Exp">Bu aşamada mevsimleri öğreneceksiniz.</string>
+    <string name="AnalogClock_Learn">Analog saatlerin öğrenimi</string>
+    <string name="AnalogClock_exp">Analog saatler farklı şekilde okunur.</string>
+    <string name="Analog_0845">Dokuza çeyrek var.</string>
+    <string name="Analog_0730">Yedi buçuk.</string>
+    <string name="Analog_1105">Onbiri beş geçiyor.</string>
+    <string name="Analog_1200">Öğlen/Geceyarısı</string>
+    <string name="Analog_1440">Üçe yirmi var.</string>
+    <string name="Analog_1615">Dördü çeyrek geçiyor</string>
+    <string name="Analog_1700">Beş (Sabah(Öğleden Sonra)</string>
 
 </resources>

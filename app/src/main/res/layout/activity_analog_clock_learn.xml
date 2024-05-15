@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F8D8D"
+    tools:context=".AnalogClockLearn">
+    <TextView
+        android:id="@+id/Clock_learn_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="182dp"
+        android:text="@string/AnalogClock_Learn"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="390dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Clock_learn_name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/direction_exp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/AnalogClock_exp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+            <ImageView
+                android:id="@+id/imgclock1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/saat1105"
+                app:layout_constraintTop_toBottomOf="@+id/direction_exp1"/>
+            <TextView
+                android:id="@+id/txtclock1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Analog_1105"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                app:layout_constraintTop_toBottomOf="@+id/imgclock1"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+            <ImageView
+                android:id="@+id/imgclock2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/saat1615"
+                app:layout_constraintTop_toBottomOf="@+id/txtclock1"/>
+            <TextView
+                android:id="@+id/txtclock2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Analog_1615"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                app:layout_constraintTop_toBottomOf="@+id/imgclock2"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+            <ImageView
+                android:id="@+id/imgclock3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/saat0730"
+                app:layout_constraintTop_toBottomOf="@+id/txtclock2"/>
+            <TextView
+                android:id="@+id/txtclock3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Analog_0730"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                app:layout_constraintTop_toBottomOf="@+id/imgclock3"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+            <ImageView
+                android:id="@+id/imgclock4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/saat1440"
+                app:layout_constraintTop_toBottomOf="@+id/txtclock3"/>
+            <TextView
+                android:id="@+id/txtclock4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Analog_1440"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                app:layout_constraintTop_toBottomOf="@+id/imgclock4"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+            <ImageView
+                android:id="@+id/imgclock5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/saat0845"
+                app:layout_constraintTop_toBottomOf="@+id/txtclock4"/>
+            <TextView
+                android:id="@+id/txtclock5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Analog_0845"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                app:layout_constraintTop_toBottomOf="@+id/imgclock5"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+            <ImageView
+                android:id="@+id/imgclock6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/saat1700"
+                app:layout_constraintTop_toBottomOf="@+id/txtclock5"/>
+            <TextView
+                android:id="@+id/txtclock6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Analog_1700"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                app:layout_constraintTop_toBottomOf="@+id/imgclock6"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+            <ImageView
+                android:id="@+id/imgclock7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/saat1200"
+                app:layout_constraintTop_toBottomOf="@+id/txtclock6"/>
+            <TextView
+                android:id="@+id/txtclock7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Analog_1200"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                app:layout_constraintTop_toBottomOf="@+id/imgclock7"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/direction_learn_quit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/direction_play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

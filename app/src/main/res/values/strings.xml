@@ -139,4 +139,13 @@
     <string name="btn_Next">Next</string>
     <string name="Seasons">Seasons</string>
     <string name="Seasons_Exp">"In this experience, you will learn seasons. "</string>
+    <string name="AnalogClock_Learn">Analog Clock Learning</string>
+    <string name="AnalogClock_exp">Analog Clocks are read different.</string>
+    <string name="Analog_0730">Half past seven</string>
+    <string name="Analog_0845">A quarter to nine</string>
+    <string name="Analog_1105">Five past eleven</string>
+    <string name="Analog_1200">Noon/Midnight</string>
+    <string name="Analog_1440">Twenty to three.</string>
+    <string name="Analog_1615">A quarter past four.</string>
+    <string name="Analog_1700">Five O\'clock (Am/Pm)</string>
 </resources>
