@@ -117,4 +117,7 @@
     <string name="numbercount_reverse_learn_name">Reverse Number Counting</string>
     <string name="numbercount_reverse_exp" translatable="false">In this experience, we will show you random numbers in an order. You need to remember the numbers and send them back in the reversed order.
     </string>
+    <string name="monthcount_Q1">What is the 2. month of the year?</string>
+    <string name="monthcount_Q2">What is the 5. month of the year?</string>
+    <string name="monthcount_Q3">What is the 8. month of the year?</string>
 </resources>

@@ -13,13 +13,13 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class DayCountingPlay extends AppCompatActivity {
+public class MonthCountingPlay extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_day_counting_play);
+        setContentView(R.layout.activity_month_counting_play);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -46,11 +46,11 @@ public class DayCountingPlay extends AppCompatActivity {
 
                         if(ans2.isChecked())
                         {
-                            Toast.makeText(DayCountingPlay.this, getString(R.string.Warn_Success), Toast.LENGTH_LONG).show();
+                            Toast.makeText(MonthCountingPlay.this, getString(R.string.Warn_Success), Toast.LENGTH_LONG).show();
                         }
                         else
                         {
-                            Toast.makeText(DayCountingPlay.this, getString(R.string.Warn_Failed), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MonthCountingPlay.this, getString(R.string.Warn_Failed), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
@@ -66,11 +66,11 @@ public class DayCountingPlay extends AppCompatActivity {
 
                         if(ans2.isChecked())
                         {
-                            Toast.makeText(DayCountingPlay.this, getString(R.string.Warn_Success), Toast.LENGTH_LONG).show();
+                            Toast.makeText(MonthCountingPlay.this, getString(R.string.Warn_Success), Toast.LENGTH_LONG).show();
                         }
                         else
                         {
-                            Toast.makeText(DayCountingPlay.this, getString(R.string.Warn_Failed), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MonthCountingPlay.this, getString(R.string.Warn_Failed), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
@@ -86,18 +86,17 @@ public class DayCountingPlay extends AppCompatActivity {
 
                         if(ans2.isChecked())
                         {
-                            Toast.makeText(DayCountingPlay.this, getString(R.string.Warn_Success), Toast.LENGTH_LONG).show();
+                            Toast.makeText(MonthCountingPlay.this, getString(R.string.Warn_Success), Toast.LENGTH_LONG).show();
                         }
                         else
                         {
-                            Toast.makeText(DayCountingPlay.this, getString(R.string.Warn_Failed), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MonthCountingPlay.this, getString(R.string.Warn_Failed), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
     }
-
     public void ConfigureQuitButton() {
-        Button playButton = (Button) findViewById(R.id.daycount_learn_quit);
+        Button playButton = (Button) findViewById(R.id.monthcount_play_quit);
         playButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

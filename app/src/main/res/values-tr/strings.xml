@@ -80,4 +80,7 @@
     <string name="month12">Aralık</string>
     <string name="numbercount_learn_name">Sayı Sayma</string>
     <string name="numbercount_reverse_learn_name">Geriye Sayma</string>
+    <string name="monthcount_Q1">Yılın 2. ayı hangisidir?</string>
+    <string name="monthcount_Q2">Yılın 5. ayı hangisidir?</string>
+    <string name="monthcount_Q3">Yılın 8. ayı hangisidir?</string>
 </resources>

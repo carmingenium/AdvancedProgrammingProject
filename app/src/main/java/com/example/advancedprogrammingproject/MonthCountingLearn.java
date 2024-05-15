@@ -24,14 +24,14 @@ public class MonthCountingLearn extends AppCompatActivity {
             return insets;
         });
         ConfigureQuitButton();
-
+        ConfigurePlayButton();
     }
     public void ConfigurePlayButton() {
         Button playButton = (Button) findViewById(R.id.monthcount_play);
         playButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //startActivity(new Intent(DayCountingLearn.this, DayCountingPlay.class));
+                startActivity(new Intent(MonthCountingLearn.this, MonthCountingPlay.class));
             }
         });
     }
