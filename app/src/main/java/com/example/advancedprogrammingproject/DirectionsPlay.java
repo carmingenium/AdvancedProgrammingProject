@@ -1,6 +1,8 @@
 package com.example.advancedprogrammingproject;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -89,6 +91,16 @@ public class DirectionsPlay extends AppCompatActivity {
                         }
                     }
                 });
+        ConfigureQuit();
+    }
+    public void ConfigureQuit(){
+        Button quitButton = (Button) findViewById(R.id.directions_learn_quit);
+        quitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
 }

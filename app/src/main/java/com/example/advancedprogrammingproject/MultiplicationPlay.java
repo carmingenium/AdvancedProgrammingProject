@@ -31,6 +31,7 @@ public class MultiplicationPlay extends AppCompatActivity {
         ConfigureQ3Input();
         ConfigureQ4Input();
         ConfigureQ5Input();
+        ConfigureQuit();
     }
     public void ConfigureQ1Input() {
 
@@ -149,6 +150,15 @@ public class MultiplicationPlay extends AppCompatActivity {
                         Toast.makeText(MultiplicationPlay.this, getString(R.string.Warn_TextOnly), Toast.LENGTH_LONG).show();
                     }
                 }
+            }
+        });
+    }
+    public void ConfigureQuit(){
+        Button quitButton = (Button) findViewById(R.id.multip_play_quit);
+        quitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
     }

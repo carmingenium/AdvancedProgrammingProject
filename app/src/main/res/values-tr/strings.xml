@@ -17,7 +17,10 @@
     <string name="activity_current">Şuanki Aktivite</string>
     <string name="activity_learn">Öğren</string>
     <string name="activity_play">Oyna</string>
-    <string name="multip_play">Dene</string>
+    <string name="multip_explanation1">Çarpım, çarpılan iki sayıdan birisini diğeri kadar kez toplama işlemine denir. Örnek olarak iki kere iki dediğimiz zaman, ikiyi iki kere toplamış oluruz. \\n Çarpım tablosunu burada görebilirsiniz.</string>
+    <string name="multip_explanation1">Ç</string>
+    <string name="multip_explanation1">Çar</string>
+    <string name="multip_play">Oyna</string>
     <string name="app_name">Advanced Programming Project</string>
     <string name="log_log">Giriş</string>
     <string name="reg_tolog">Giriş Ekranına Dön</string>
@@ -27,10 +30,10 @@
     <string name="next">Sonraki</string>
     <string name="Warn_Failed">Olmadı !</string>
     <string name="Warn_Success">Harika !</string>
-    <string name="Warn_TextOnly">Sadece Sayı girin lütfen !</string>
+    <string name="Warn_TextOnly">Sadece sayı girin lütfen !</string>
     <string name="menu_ball_on_screen">Ekrandaki top</string>
-    <string name="multip_play_name">Deneme</string>
-    <string name="multip_play_explanation">Öürendiğini burada deneyebilirsin.</string>
+    <string name="multip_play_name">Çarpım Yapma</string>
+    <string name="multip_play_explanation">Öğrendiklerini burada deneyebilirsin.</string>
     <string name="multip_example1">1x5 Nedir?</string>
     <string name="multip_example2">7x6 Nedir</string>
     <string name="multip_example3">10x2 Nedir</string>
@@ -39,8 +42,8 @@
     <string name="multip_example5">11x7 Nedir</string>
     <string name="direction_name_learn">Yönleri Öğreniyoruz</string>
     <string name="direction_learn_quit">Çıkış</string>
-    <string name="direction_play">Dene</string>
-    <string name="direction_play_name">Deneme</string>
+    <string name="direction_play">Oyna</string>
+    <string name="direction_play_name">Yönleri Bulma</string>
     <string name="direction_play_q">Yukarıdaki resim nedir?</string>
     <string name="previous">Önceki</string>
     <string name="Direction_Straight">İleri</string>
@@ -65,7 +68,7 @@
     <string name="daycount_Q2">Haftanın 5. günü hangisidir?</string>
     <string name="daycount_Q3">Haftanın 6. günü hangisidir?</string>
     <string name="monthcount_learn_name">Yılın Ayları</string>
-    <string name="monthcount_learn_exp">"Yılda 12 ay vardır. Sırasıyla Şunlardır: "</string>
+    <string name="monthcount_learn_exp">"Yılda 12 ay vardır. Bunlar sırasıyla şunlardır: "</string>
     <string name="month1">Ocak</string>
     <string name="month2">Şubat</string>
     <string name="month3">Mart</string>
@@ -128,5 +131,8 @@
     <string name="SpellingWord">Merhaba</string>
     <string name="SpellingPlay_Exp">Lütfen boşluklara aşağıda verilen kelimenin harflerini giriniz:</string>
     <string name="Check">Kontrol et</string>
+    <string name="multip_explanation2">Burda kendini tekrarlayan iki durum görebilirsiniz. Birincisi; çarpılan iki sayının yerini değiştirdiğimiz zaman, örnek olarak 4x5 ve 5x4, aynı değere eşit olurlar. \\n Bu çarpımın bir özelliğinden dolayıdır. \\n Ayrıca, bir sayıyı 0la çarptığımız zaman sonuç her zaman 0 olur.</string>
+    <string name="direction_exp1">Bugün yönleri öğreniyoruz.</string>
+    <string name="direction_exp1">B</string>
 
 </resources>

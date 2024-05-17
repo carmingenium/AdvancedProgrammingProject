@@ -28,11 +28,11 @@
     <string name="activity_play">Play</string>
     <!-- Multiplication Activity Learn -->
     <string name="multip_learn">Learning Multiplication</string>
-    <string name="multip_explanation1" translatable="false">
-        Multiplication is adding objects together multiple times. For example when we say 2 times 2, we add two to zero, two times. \n\n
-        You can see the multiplication table here:
+    <string name="multip_explanation1">
+        "Multiplication is adding numbers together multiple times. For example when we say 2 times 2, we add two, two times \n
+        You can see the multiplication table here:"
     </string>
-    <string name="multip_explanation2" translatable="false">
+    <string name="multip_explanation2">
         Here you can see two repeating things, first is when we change the places of the numbers: for example 4x5 and 5x4, they equal to same number! \n\n
         That\'s because of a property of multiplication.\n\n
         Also, adding anything zero times means we don\'t add anything at all!
@@ -52,7 +52,7 @@
 
     <!-- Direction Learn -->
     <string name="direction_name_learn"> Learning Directions</string>
-    <string name="direction_exp1" translatable="false">
+    <string name="direction_exp1">
         Today we are learning directions.
     </string>
     <string name="direction_learn_quit"> Quit </string>

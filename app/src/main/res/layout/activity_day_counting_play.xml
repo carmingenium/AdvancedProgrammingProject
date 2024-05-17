@@ -153,16 +153,16 @@
             android:text="@string/daycount_Sun"
             android:textSize="20sp" />
     </RadioGroup>
-            <Button
-                android:id="@+id/daycount_learn_quit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginBottom="15dp"
-                android:text="@string/multip_learn_quit"
-                app:layout_constraintBottom_toBottomOf="parent"
-                />
-    </LinearLayout>
+        </LinearLayout>
 </ScrollView>
+
+    <Button
+        android:id="@+id/daycount_learn_quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/multip_learn_quit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
