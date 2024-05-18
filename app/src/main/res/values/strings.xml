@@ -29,8 +29,8 @@
     <!-- Multiplication Activity Learn -->
     <string name="multip_learn">Learning Multiplication</string>
     <string name="multip_explanation1">
-        "Multiplication is adding numbers together multiple times. For example when we say 2 times 2, we add two, two times \n
-        You can see the multiplication table here:"
+        Multiplication is adding numbers together multiple times. For example when we say 2 times 2, we add two, two times \n\n
+        You can see the multiplication table here:
     </string>
     <string name="multip_explanation2">
         Here you can see two repeating things, first is when we change the places of the numbers: for example 4x5 and 5x4, they equal to same number! \n\n
