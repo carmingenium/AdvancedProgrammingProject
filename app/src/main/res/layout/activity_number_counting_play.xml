@@ -8,16 +8,6 @@
     android:background="#8F8D8D"
     tools:context=".NumberCountingPlay">
 
-    <Button
-        android:id="@+id/numbercount_quit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="10dp"
-        android:text="@string/multip_learn_quit"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/numbercount_learn_name"
         android:layout_width="wrap_content"
@@ -46,6 +36,7 @@
         app:layout_constraintTop_toBottomOf="@+id/numbercount_learn_name" />
 
     <ScrollView
+        android:id="@+id/scrollView4"
         android:layout_width="390dp"
         android:layout_height="480dp"
         android:layout_marginStart="10dp"
@@ -151,4 +142,16 @@
                 android:layout_height="10sp" />
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/numbercount_quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/multip_learn_quit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

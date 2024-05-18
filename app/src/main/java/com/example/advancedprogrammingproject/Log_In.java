@@ -36,7 +36,6 @@ public class Log_In extends AppCompatActivity {
         });
         splang = getApplicationContext().getSharedPreferences("lang", Context.MODE_PRIVATE);
         setVariables();
-        configureMenuButton();
         configureQuitButton();
         configureRegisterClick();
         configureLoginButton();
@@ -122,15 +121,6 @@ public class Log_In extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
-            }
-        });
-    }
-    public void configureMenuButton(){
-        Button backbutton = (Button) findViewById(R.id.menuButton);
-        backbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Log_In.this, MainActivity.class));
             }
         });
     }

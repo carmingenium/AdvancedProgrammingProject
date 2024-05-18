@@ -144,7 +144,7 @@
     <string name="AnalogClock_exp">You can see digital clocks in the middle as numbers.\n Analog clocks are the circle with sticks showing time.\n They read differently.\n We will show you the way they are read, first analog clocks then digital ones.</string>
     <string name="Analog_0730">Half past seven, seven thirty</string>
     <string name="Analog_0845">A quarter to nine, eight forty five</string>
-    <string name="Analog_1105">Five past eleven, eleven \'oh\' five \n When we see zeros in the minute part of digital clocks, we read zero as \'oh\'</string>
+    <string name="Analog_1105">Five past eleven, eleven \'oh\' five</string>
     <string name="Analog_1200">Noon/Midnight, twelve</string>
     <string name="Analog_1440">Twenty to three, two forty</string>
     <string name="Analog_1615">A quarter past four, four fifteen</string>
