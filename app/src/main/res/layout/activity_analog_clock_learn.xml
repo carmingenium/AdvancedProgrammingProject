@@ -50,8 +50,8 @@
                 android:id="@+id/imgclock1"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/saat1105"
-                app:layout_constraintTop_toBottomOf="@+id/direction_exp1"/>
+                app:layout_constraintTop_toBottomOf="@+id/direction_exp1"
+                app:srcCompat="@drawable/saat_11_05_digital" />
             <TextView
                 android:id="@+id/txtclock1"
                 android:layout_width="match_parent"
@@ -68,8 +68,8 @@
                 android:id="@+id/imgclock2"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/saat1615"
-                app:layout_constraintTop_toBottomOf="@+id/txtclock1"/>
+                app:layout_constraintTop_toBottomOf="@+id/txtclock1"
+                app:srcCompat="@drawable/saat_4_15_digital" />
             <TextView
                 android:id="@+id/txtclock2"
                 android:layout_width="match_parent"
@@ -86,8 +86,8 @@
                 android:id="@+id/imgclock3"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/saat0730"
-                app:layout_constraintTop_toBottomOf="@+id/txtclock2"/>
+                app:layout_constraintTop_toBottomOf="@+id/txtclock2"
+                app:srcCompat="@drawable/saat_7_30_digital" />
             <TextView
                 android:id="@+id/txtclock3"
                 android:layout_width="match_parent"
@@ -104,8 +104,8 @@
                 android:id="@+id/imgclock4"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/saat1440"
-                app:layout_constraintTop_toBottomOf="@+id/txtclock3"/>
+                app:layout_constraintTop_toBottomOf="@+id/txtclock3"
+                app:srcCompat="@drawable/saat_2_40_digital" />
             <TextView
                 android:id="@+id/txtclock4"
                 android:layout_width="match_parent"
@@ -122,8 +122,8 @@
                 android:id="@+id/imgclock5"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/saat0845"
-                app:layout_constraintTop_toBottomOf="@+id/txtclock4"/>
+                app:layout_constraintTop_toBottomOf="@+id/txtclock4"
+                app:srcCompat="@drawable/saat_8_45_digital" />
             <TextView
                 android:id="@+id/txtclock5"
                 android:layout_width="match_parent"
@@ -140,8 +140,8 @@
                 android:id="@+id/imgclock6"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/saat1700"
-                app:layout_constraintTop_toBottomOf="@+id/txtclock5"/>
+                app:layout_constraintTop_toBottomOf="@+id/txtclock5"
+                app:srcCompat="@drawable/saat_5_00_digital" />
             <TextView
                 android:id="@+id/txtclock6"
                 android:layout_width="match_parent"
@@ -158,8 +158,8 @@
                 android:id="@+id/imgclock7"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/saat1200"
-                app:layout_constraintTop_toBottomOf="@+id/txtclock6"/>
+                app:layout_constraintTop_toBottomOf="@+id/txtclock6"
+                app:srcCompat="@drawable/saat_12_00_digital" />
             <TextView
                 android:id="@+id/txtclock7"
                 android:layout_width="match_parent"

@@ -139,15 +139,17 @@
     <string name="btn_Next">Next</string>
     <string name="Seasons">Seasons</string>
     <string name="Seasons_Exp">"In this experience, you will learn seasons. "</string>
-    <string name="AnalogClock_Learn">Analog Clocks</string>
-    <string name="AnalogClock_exp">Analog Clocks are read different.</string>
-    <string name="Analog_0730">Half past seven</string>
-    <string name="Analog_0845">A quarter to nine</string>
-    <string name="Analog_1105">Five past eleven</string>
-    <string name="Analog_1200">Noon/Midnight</string>
-    <string name="Analog_1440">Twenty to three.</string>
-    <string name="Analog_1615">A quarter past four.</string>
-    <string name="Analog_1700">Five O\'clock (Am/Pm)</string>
+    <!-- clocks -->
+    <string name="AnalogClock_Learn">Analog and Digital Clocks</string>
+    <string name="AnalogClock_exp">You can see digital clocks in the middle as numbers.\n Analog clocks are the circle with sticks showing time.\n They read differently.\n We will show you the way they are read, first analog clocks then digital ones.</string>
+    <string name="Analog_0730">Half past seven, seven thirty</string>
+    <string name="Analog_0845">A quarter to nine, eight forty five</string>
+    <string name="Analog_1105">Five past eleven, eleven \'oh\' five \n When we see zeros in the minute part of digital clocks, we read zero as \'oh\'</string>
+    <string name="Analog_1200">Noon/Midnight, twelve</string>
+    <string name="Analog_1440">Twenty to three, two forty</string>
+    <string name="Analog_1615">A quarter past four, four fifteen</string>
+    <string name="Analog_1700">Five O\'clock, five (AM/PM)</string>
+    <!-- clocks -->
     <string name="FindSimilars">Find similar objects</string>
     <string name="FindSimilar_exp">Some objects are very similar but not same. See how it happens?</string>
     <string name="FindSimilar_Tree_Exp">These trees are similar.</string>
