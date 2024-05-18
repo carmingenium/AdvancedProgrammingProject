@@ -52,7 +52,7 @@ public class OnScreenBall extends AppCompatActivity {
                 // Place the glasses again in the top
                 float currentY = view1.getY();
                 // End the animations
-                if(currentY+120>=500)
+                if(currentY+120>=1400)
                 {
                     Animateball1.cancel();
                 }
