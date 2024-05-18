@@ -24,6 +24,7 @@ public class DirectionsLearn extends AppCompatActivity {
             return insets;
         });
         ConfigurePlayButton();
+        ConfigureQuitButton();
     }
     public void ConfigurePlayButton() {
         Button playButton = (Button) findViewById(R.id.direction_play);
@@ -31,6 +32,15 @@ public class DirectionsLearn extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(DirectionsLearn.this, DirectionsPlay.class));
+            }
+        });
+    }
+    public void ConfigureQuitButton() {
+        Button quitButton = (Button) findViewById(R.id.directions_learn_quit);
+        quitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
     }
