@@ -18,8 +18,6 @@
     <string name="activity_learn">Öğren</string>
     <string name="activity_play">Oyna</string>
     <string name="multip_explanation1">Çarpım, çarpılan iki sayıdan birisini diğeri kadar kez toplama işlemine denir. Örnek olarak iki kere iki dediğimiz zaman, ikiyi iki kere toplamış oluruz. \\n Çarpım tablosunu burada görebilirsiniz.</string>
-    <string name="multip_explanation1">Ç</string>
-    <string name="multip_explanation1">Çar</string>
     <string name="multip_play">Oyna</string>
     <string name="app_name">Advanced Programming Project</string>
     <string name="log_log">Giriş</string>
@@ -133,6 +131,5 @@
     <string name="Check">Kontrol et</string>
     <string name="multip_explanation2">Burda kendini tekrarlayan iki durum görebilirsiniz. Birincisi; çarpılan iki sayının yerini değiştirdiğimiz zaman, örnek olarak 4x5 ve 5x4, aynı değere eşit olurlar. \\n Bu çarpımın bir özelliğinden dolayıdır. \\n Ayrıca, bir sayıyı 0la çarptığımız zaman sonuç her zaman 0 olur.</string>
     <string name="direction_exp1">Bugün yönleri öğreniyoruz.</string>
-    <string name="direction_exp1">B</string>
 
 </resources>
