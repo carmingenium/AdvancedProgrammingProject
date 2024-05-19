@@ -36,7 +36,7 @@ public class DirectionsLearn extends AppCompatActivity {
         });
     }
     public void ConfigureQuitButton() {
-        Button quitButton = (Button) findViewById(R.id.directions_learn_quit);
+        Button quitButton = (Button) findViewById(R.id.direction_learn_quit);
         quitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
